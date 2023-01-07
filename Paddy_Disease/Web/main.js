@@ -1,0 +1,1 @@
+document.getElementById("knowledge").onclick="location.href=''"
