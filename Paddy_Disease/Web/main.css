@@ -3,6 +3,7 @@
 .nowrap {
   white-space: nowrap ;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .menu{
