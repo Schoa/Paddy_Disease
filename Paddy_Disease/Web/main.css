@@ -17,6 +17,21 @@ a {
   color: inherit;
 }
 
+.heading{
+  text-align: center;
+  font-size: 500%;
+  padding-bottom: 17%;
+}
+
+#tittle{
+  color: #6A994E;
+}
+
 body{
-  background-color: #f2e8cf;
+  background-color: #F2E8CF;
+}
+
+#subtittle{
+  padding-top: 0%;
+  font-size: 85%;
 }
