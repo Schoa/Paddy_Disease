@@ -22,7 +22,7 @@ fileInput.onchange = ({target})=>{
 function makePrediction() {
   $.ajax({
     type:"POST",
-    url:"/app.py"
+    url:"/AI/app.py"
   });
 };
 
