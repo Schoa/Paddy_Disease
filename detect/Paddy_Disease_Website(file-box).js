@@ -29,7 +29,7 @@ function makePrediction() {
 
 function uploadFile(name){
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "php/Paddy_Disease_Website.php");
+  xhr.open("POST", "Paddy_Disease_Website.php");
   xhr.upload.addEventListener("progress", ({loaded, total}) =>{
     let fileLoaded = Math.floor((loaded / total) * 100);
     let fileTotal = Math.floor(total / 1000);
